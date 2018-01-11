@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+
+.chartDiv {
+  width: 50%;
+  height: 400px;
+  float: left;
+}
+

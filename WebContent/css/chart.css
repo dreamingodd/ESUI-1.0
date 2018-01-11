@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+.outer {
+  height: 400px;
+}
+
+.chartDiv {
+  height: 100%;
+  float:left;
+}
+
+#lineChartDiv {
+  width: 79%;
+}
+
+#cateCheckboxDiv {
+  width:19%;
+  height: 400px;
+  float:left;
+  padding: 45px 0 0 10px;
+  font-family: '楷体';
+}
+
+#barChartDiv {
+  width: 99%;
+  height: 95%;
+}
+
+#monthSelectDiv {
+  padding-left: 40px;
+}

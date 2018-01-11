@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+.all {
+
+  margin:30px auto;
+  width: 96%;
+  border: 2px solid #eeeaae;
+}
+.header {
+  text-align: center;
+}

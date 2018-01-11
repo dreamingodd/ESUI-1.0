@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+.all {
+  height: 500px;
+}
+
+.optionName {
+  width:100%;
+  height:33%;
+  color:white;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+#optionName1 {
+  background-color: #aeeaaa;
+}
+#optionName2 {
+  background-color: #eeaaae;
+}
+#optionName3 {
+  background-color: #77aaff;
+  height:34%;
+}
+.optionName a {
+  color: white;
+  text-decoration: none;
+}
+.optionName a:VISITED {
+  color: white;
+}

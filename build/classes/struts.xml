@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+  <constant name="struts.devMode" value="true" />
+
+  <package name="default" extends="struts-default">
+    <action name="debug" class="ywd.action.Debug" method="debug">
+      <result name="success">/debug.jsp</result>
+    </action>
+
+    <action name="ExpendChart" class="ywd.action.ExpendToJsonAction"
+        method="ajaj">
+      <result name="success">/html/expend/detail.jsp</result>
+    </action>
+
+    <action name="ExpendData" class="ywd.action.ExpendChartAction" method="exe">
+      <result name="success">/html/output.jsp</result>
+    </action>
+
+  </package>
+
+</struts>

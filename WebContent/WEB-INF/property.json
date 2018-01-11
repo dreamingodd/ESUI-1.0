@@ -1,0 +1,13 @@
+{
+  'SRC_FOLDER_WIN':'D:/share',
+  'SRC_FOLDER_MAC':'/Users/ywd/Desktop/Share',
+  'SRC_FILE_NAME_FORMAT':'YWD.xls',
+  'YEAR_IN_FILE':'0',
+  'DATE_FORMAT':'\\d{1,2}月\\d{1,2}日',
+  'SPECIAL_CATEGORY_ARRAY':[
+    {'name':'数码产品', 'parent':'其他必要支出', 'color':'red', 'bold':'', 'words':[]},
+    {'name':'书', 'parent':'其他必要支出', 'color':'blue', 'bold':'', 'words':[]},
+    {'name':'宠物', 'parent':'其他必要支出', 'color':'', 'bold':'', 'words':['猫','狗']},
+    {'name':'车费', 'parent':'房租水电', 'color':'', 'bold':'', 'words':['车','油','公交']}
+  ]
+}
